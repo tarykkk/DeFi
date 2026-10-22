@@ -2,7 +2,7 @@
 
 * **Дисципліна:** Технології децентралізованих фінансів (DeFi) та криптовалют[cite: 1]
 * **Мережа:** Ethereum Testnet Sepolia (RPC через Alchemy)[cite: 1, 2]
-* **Головний репозиторій:** [Повернутися до загального README](../README.md)
+* **Головний репозиторій:** [Повернутися до загального README](https://github.com/tarykkk/DeFi/blob/main/README.md)
 
 ---
 
