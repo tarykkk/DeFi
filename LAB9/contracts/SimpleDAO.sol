@@ -7,7 +7,7 @@ contract SimpleDAO {
     IERC20 public immutable governanceToken;
     uint256 public proposalCount;
 
-    uint256 public constant VOTING_PERIOD = 5 minutes;
+    uint256 public constant VOTING_PERIOD = 3 minutes;
 
     struct Proposal {
         address targetContract;

@@ -32,7 +32,7 @@ async function main() {
   console.log("Offer ID:", id.toString());
   console.log("Targeted Contract:", prop.targetContract);
   console.log("Voting deadline:", new Date(Number(prop.deadline) * 1000).toLocaleTimeString("uk-UA"));
-  console.log("Vote within 5 minutes!");
+  console.log("Vote within 3 minutes!");
 
   fs.writeFileSync(
     path.join(__dirname, "..", "proposal.json"),
