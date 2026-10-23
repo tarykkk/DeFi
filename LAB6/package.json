@@ -1,0 +1,27 @@
+{
+  "name": "tarasyuklab6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network sepolia",
+    "setup": "hardhat run scripts/setup-position.js --network sepolia",
+    "bot": "node scripts/bot.js",
+    "crash": "hardhat run scripts/crash.js --network sepolia"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.29.1"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^1.5.0",
+    "@openzeppelin/contracts": "^5.6.1",
+    "dotenv": "^18.0.9",
+    "ethers": "^6.17.0"
+  }
+}
