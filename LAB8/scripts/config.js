@@ -1,0 +1,11 @@
+module.exports = {
+  SEPOLIA: {
+    router: "0x0BF3dE8c5D3e8A2B34D2BEeB17ABfCeBaf363A59",
+    link: "0x779877A7B0D9E8603169DdbD7836e478b4624789",
+    selector: "16015286601757825753",
+  },
+  ARB_SEPOLIA: {
+    router: "0x2a9C5afB0d0e4BAb2BCdaE109EC4b0c4Be15a165",
+    selector: "3478487238524512106",
+  },
+};

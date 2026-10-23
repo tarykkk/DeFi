@@ -1,0 +1,28 @@
+{
+  "name": "tarasyuklab8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:messenger": "hardhat run scripts/deploy-messenger.js --network sepolia",
+    "deploy:receiver": "hardhat run scripts/deploy-receiver.js --network arbitrumSepolia",
+    "fund": "hardhat run scripts/fund.js --network sepolia",
+    "send": "hardhat run scripts/send.js --network sepolia",
+    "check": "hardhat run scripts/check.js --network arbitrumSepolia"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.29.1"
+  },
+  "dependencies": {
+    "@chainlink/contracts-ccip": "^1.4.0",
+    "@openzeppelin/contracts": "^5.6.1",
+    "dotenv": "^18.0.9",
+    "ethers": "^6.17.0"
+  }
+}
