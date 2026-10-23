@@ -1,0 +1,23 @@
+{
+  "name": "tarasyuklab6",
+  "scripts": {
+    "chain": "hardhat node --network fork --hostname 127.0.0.1 --port 8546",
+    "compile": "node scripts/compile.js",
+    "lab": "node scripts/lab.js",
+    "lab:steps": "node scripts/lab.js --step-by-step",
+    "check:sepolia": "node --env-file=.env scripts/check-sepolia.js",
+    "lab:sepolia": "node --env-file=.env scripts/lab.js --sepolia --step-by-step",
+    "report": "node scripts/report.js"
+  },
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "hardhat": "3.0.0",
+    "solc": "0.8.34"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.0.2",
+    "@uniswap/v2-periphery": "1.1.0-beta.0",
+    "ethers": "6.17.0"
+  }
+}
